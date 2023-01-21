@@ -1,0 +1,58 @@
+.cabecalho {
+    
+    height: 80px;
+    background-color:var(--branco-fundo);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-decoration:none;
+    padding:0 2em;
+}
+
+.paginas {
+    display:flex;
+    align-items:center;
+}
+
+.logo__imagem {
+    margin: 0 1em 0 0;
+}
+
+.logo__titulo {
+    color:var(--cinza-principal);
+    font-size:18px;
+    font-weight:500px;
+    margin-right: 3em;
+  
+}
+.paginas__item {
+    margin: 0 1em;
+    text-decoration:none;
+    font-style: var(--fonte-principal);
+    color:var(--cinza-principal);
+    font-weight:500px;
+   
+}
+
+.botoes__entrar {
+    margin: 0 1em;
+    text-decoration:none;
+    color:var(--cinza-principal);
+    font-weight:500px;
+}
+.botoes__cadastrar {
+
+   text-align:center;
+   text-decoration:none;
+   background-color:var(--vermelho-padrao);
+   border: 1px solid #8E2424;
+   box-shadow: 0px 1px 2px;
+   color:#FFFFFF;
+   font-weight:500px;
+   padding: 10px 18px;
+   border-radius: 8px;
+
+
+}
+
+ 

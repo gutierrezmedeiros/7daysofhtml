@@ -1,0 +1,33 @@
+.depoimentos {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 96px;
+background: #FFFFFF;
+}
+
+.depoimento-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 64px;
+    gap: 32px;
+    width: 1216px;
+    height: 404px;
+
+}
+
+
+.depoimentos-titulo {
+    font-weight: 600;
+    font-size: 14px;
+    color:var(--vermelho-padrao);
+}
+
+.depoimentos-texto {
+    font-size:36px;
+    font-weight:500;
+}

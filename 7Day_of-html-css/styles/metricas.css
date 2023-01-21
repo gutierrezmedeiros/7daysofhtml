@@ -1,0 +1,39 @@
+.metricas {
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding: 0px 200px 96px;
+   
+}
+
+.metricas__conteudo{
+    padding:0 2em 0 0;
+}
+
+.metricas__titulo {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+   
+    color:var(--vermelho-padrao);
+    font-size:60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.metricas__subtitulo{
+   
+    color:var( --preto-principal);
+    font-size:18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.metricas__texto {
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    font-weight:400;
+    color:var(--cinza-principal);
+}

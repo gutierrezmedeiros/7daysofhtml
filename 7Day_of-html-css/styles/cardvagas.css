@@ -1,0 +1,76 @@
+.card__empregos {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+.card__empregos-titulo {
+    color:var(--vermelho-padrao);
+    margin-bottom: 2em;
+    font-weight:500;
+    font-size:14px;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius:px;
+  
+   
+}
+
+.card__empregos-subtitulo {
+    font-size:36px;
+    font-weight: 600;
+    margin-bottom: 1em;
+    
+
+}
+
+.card__empregos-texto {
+    margin-bottom:2em;
+    
+
+} 
+.card__vagas {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.vagas {
+    
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 24px 24px 28px;
+    margin: 1em;
+    gap: 24px;
+    width: 768px;
+    height: 136px;
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+        
+    }
+    .nome__titulo-principal {
+       
+        width: 768px;
+        height: 30px;
+        padding: 20px;
+        font-size:20px;
+        font-weight:500;
+        
+    }
+    
+    
+    .titulo-vagas {
+        display: flex;
+        font-size:18px;
+        font-weight:500;
+        margin-bottom: 2em;
+        
+    }
+    
+    .informacoes {
+        font-size: 16px;
+        font-weight: 500;
+        color:var(--cinza-principal);
+    
+    }
